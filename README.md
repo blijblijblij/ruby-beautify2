@@ -1,4 +1,4 @@
-# Ruby Beautify [![Build Status](https://travis-ci.org/erniebrodeur/ruby-beautify.png?branch=master)](https://travis-ci.org/erniebrodeur/ruby-beautify) [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/erniebrodeur/ruby-beautify?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Ruby Beautify [![Build Status](https://travis-ci.org/jirutka/ruby-beautify2.png?branch=master)](https://travis-ci.org/jirutka/ruby-beautify2) [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/erniebrodeur/ruby-beautify?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This gem provides a cli binary named 'ruby-beautify' that will pretty up ruby code.
 
@@ -6,7 +6,7 @@ Currenty, 'rbeautify' is included for backwards compatibility but will likely be
 
 ## Installation
 
-  `gem install ruby-beautify`
+  `gem install ruby-beautify2`
 
 ## Usage
 
@@ -16,7 +16,7 @@ To Pretty up a file:
 
 Without a filename it reads from STDIN, suitable for piping:
 
-  `curl https://raw.githubusercontent.com/erniebrodeur/ruby-beautify/master/spec/monolithic_example.rb | ruby-beautify`
+  `curl https://raw.githubusercontent.com/jirutka/ruby-beautify2/master/spec/monolithic_example.rb | ruby-beautify`
 
 It has help:
 
@@ -78,6 +78,8 @@ Longer term I'd like to do some more to assignment, line wrapping, and spacing i
 Please see the [Contribution Guide](CONTRIB.md) file for specifics on how to contribute to this project.
 
 # History
+
+ruby-beautify2 is a fork of [ruby-beautify](https://github.com/erniebrodeur/ruby-beautify) written by [Ernie Brodeur](https://github.com/erniebrodeur), which is currently unmaintained.
 
 The original analyzer is available at: http://www.arachnoid.com/ruby/rubyBeautifier.html.
 
