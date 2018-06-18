@@ -16,3 +16,10 @@ before_install:
   - gem update bundler
 script:
   - bundle exec rspec spec
+deploy:
+  provider: rubygems
+  api_key:
+    secure: "SC/PElVXXnYvzfnXyJk1pMZ1pOtAhtgWJjsMFVpG5/0dLGBG+EbZidz77mwCfYmn3jbzOB65j9h7kDTjj8ivrDmsfonnA/81LW10RVsPpjQ759PkadcLsaeLgu7ob1dzDJ8p15bEKeTfqeeOPfPoSo8qdsLGuD6jcLIJOYJvhzsUPeTpuu7thCkbOGW32niBdC3eK6jX8eW6KTQldElynjkjVe1cu/y19LXevBM+ypxZMgycC+NxYRml9Ss/2GYcOAGUrautnQpXrn9iNriZwsezpGXtMlkr4aS80RhhUMRhj9Sqw8R62SpAXJCRDjlzo+ZKra49p2KtTxDaBF31yihcdh4KhaMSQkb+c3iBa11hrySfwu/6FfzOUQkf3BYJAm+PuOBbrkq8OJXZlRH04QkZXyZqAQJ3DV8Z9XLT3WckeaUdOkxtMwXA0h+BIfWHP4Ny0/UBy6IzWrP44e+EB8zkJmeolCAMwGY1e979GpanjBVxd0Fe4QPWSv/jDDJ0SVR/aYPZIT0GWr4k0H/3A89jG51AUU/4j8AIFAkF/Gg2rA38DPk7GQzkL/QF63TL4VvI9hWDpuqHgR25HHfCsJvcozO9o7laFg8oBNJWYEgcQfFhVNYhqg2BsOG/3rHozdeDJ3NbI0ciN6nqsgcje96HvR0n/xOBGksEUkba/Xg="
+  on:
+    tags: true
+    rvm: 2.5
