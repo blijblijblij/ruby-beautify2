@@ -73,10 +73,6 @@ The gaps are getting smaller.  I think we have most of the basic ruby use cases 
 
 Longer term I'd like to do some more to assignment, line wrapping, and spacing in/around keywords.
 
-## Contributing
-
-Please see the [Contribution Guide](CONTRIB.md) file for specifics on how to contribute to this project.
-
 # History
 
 ruby-beautify2 is a fork of [ruby-beautify](https://github.com/erniebrodeur/ruby-beautify) written by [Ernie Brodeur](https://github.com/erniebrodeur), which is currently unmaintained.
