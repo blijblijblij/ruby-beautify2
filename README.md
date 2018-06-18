@@ -1,4 +1,6 @@
-# Ruby Beautify [![Build Status](https://travis-ci.org/jirutka/ruby-beautify2.png?branch=master)](https://travis-ci.org/jirutka/ruby-beautify2) [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/erniebrodeur/ruby-beautify?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Ruby Beautify
+
+[![Build Status](https://travis-ci.org/jirutka/ruby-beautify2.png?branch=master)](https://travis-ci.org/jirutka/ruby-beautify2) 
 
 This gem provides a cli binary named 'ruby-beautify' that will pretty up ruby code.
 
