@@ -8,5 +8,4 @@ group :development do
   gem 'guard-rspec', require:false
   gem 'guard-bundler', require:false
   gem 'pry', require:false
-  gem "codeclimate-test-reporter", "~> 1.0", group: :test, require: nil
 end
