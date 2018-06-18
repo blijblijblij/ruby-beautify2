@@ -1,3 +1,10 @@
+# Changelog
+
+## 0.98.0
+* Forked and released under new name `ruby-beautify2`.
+* Fixed compatibility with Ruby 2.5.
+* Replaced usage of ruby subprocess for checking syntax with (safe) eval.
+
 ## 0.97.4
 * Feature:  Correctly beautifies lambda expressions thanks to @tkosuga.
 

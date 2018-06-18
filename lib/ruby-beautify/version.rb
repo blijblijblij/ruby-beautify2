@@ -1,3 +1,3 @@
 module RubyBeautify
-	VERSION = "0.97.4"
+	VERSION = '0.98.0'
 end
